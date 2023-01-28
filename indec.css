@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #10002b;
+}
+
+.container {
+    max-width: 575px;
+    max-height: 385px;
+    background: #4c1d95;
+    border-radius: 12px;
+    border: 3px solid white;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 68px 82px;
+    gap: 100px;
+    box-shadow: 0px 0px 3px black;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.heading-a
+{
+
+        font-family: "Verdana";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        text-align: center;
+      
+        color: white;
+      
+}
+.heading-b
+{
+    
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+  
+    color: white;
+}
+.score-a {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiLs;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 110px;
+    text-align: center;
+    color: #f94f6d;
+  }
+
+  .score-b {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiLs;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 110px;
+    text-align: center;
+    color: #f94f6d;
+
+  }
+
+  .point-a{
+    margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  }
+
+  .add{
+    width: 45px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: "Silkscreen", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  line-height: 35px;
+  background: transparent;
+}
+
+.new
+{
+    width: 100px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "Silkscreen", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    background: transparent;
+  }
+  .btn-reset {
+    position: relative;
+    padding-top : 10%;
+    padding-left: 1%;
+    top: 30%;
+   
+  }
+  .btn-reset button {
+    
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "Silkscreen", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    background: transparent;
+  }
+  .btn-reset button:active {
+    border-color: black;
+    transition: 3ms;
+  }
+
+  .add:active{
+    border-color: black;
+    transition: 3ms;
+  }
+  
+@media only screen and (max-width: 600px) {
+    body {
+      overflow-y: scroll;
+      padding:20px 0px;
+      height:auto;
+    }
+    .container {
+      margin: auto auto;
+      padding-block: 30px;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 100%;
+    }
+  }
+  
